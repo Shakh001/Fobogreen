@@ -398,7 +398,7 @@ def display_route_instructions(route_data):
     with col1:
         st.metric("Общее расстояние", f"{total_distance:.0f} м")
     with col2:
-        st.metric("Время в пути", f"{int(total_duration / 60)} мин")
+        pass
     
     st.markdown("---")
     
@@ -425,7 +425,7 @@ def display_route_instructions(route_data):
                         Шаг {step_number}: {formatted_instruction}{street_info}
                     </div>
                     <div style='font-size: 0.9rem; color: #666;'>
-                      {distance:.0f} м   ~{int(duration / 60)} мин {int(duration % 60)} сек
+                      {distance:.0f} м
                     </div>
                 </div>
                 """, unsafe_allow_html=True)
