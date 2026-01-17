@@ -1,0 +1,6 @@
+streamlit
+folium
+streamlit_folium
+geopy
+streamlit_js_eval
+requests
